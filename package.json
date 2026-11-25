@@ -1,0 +1,20 @@
+{
+  "name": "pinterest-looks",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lookbook local com fotos do Pinterest filtradas por estética",
+  "main": "main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "smoke": "electron . --smoke",
+    "check": "node scripts/check.js",
+    "test": "node --test tests/unit.test.js",
+    "test:live": "node --test tests/live.test.js",
+    "fixtures": "node scripts/capture-fixtures.js"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^45.5.0"
+  }
+}

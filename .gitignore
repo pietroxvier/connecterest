@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.log
+shot*.png
+icon-preview*.png
+smoke.out
+smoke.err

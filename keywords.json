@@ -1,0 +1,29 @@
+{
+  "niches": [
+    {
+      "id": "gotico",
+      "label": "Gótico",
+      "queries": ["look gótico", "gothic outfit", "gothic outfit ideas"]
+    },
+    {
+      "id": "coquette",
+      "label": "Coquette",
+      "queries": ["look coquette", "coquette outfit", "coquette outfit ideas"]
+    },
+    {
+      "id": "dark-academia",
+      "label": "Dark academia",
+      "queries": ["dark academia outfit", "dark academia outfit ideas"]
+    },
+    {
+      "id": "grunge",
+      "label": "Grunge",
+      "queries": ["grunge outfit", "grunge outfit ideas"]
+    },
+    {
+      "id": "y2k",
+      "label": "Y2K",
+      "queries": ["y2k outfit", "y2k outfit ideas"]
+    }
+  ]
+}

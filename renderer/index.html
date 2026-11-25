@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self'; img-src https://i.pinimg.com lookbook:; base-uri 'none'; form-action 'none'"
+    />
+    <title>Lookbook</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <p class="wordmark">Lookbook</p>
+      <p class="hint">Sugestões de look recolhidas do Pinterest</p>
+    </header>
+
+    <nav class="filters" id="filters" aria-label="Filtrar por estética"></nav>
+
+    <main class="stage">
+      <div class="stage-head">
+        <h1 class="niche-title" id="niche-title">Carregando</h1>
+        <p class="count" id="count" aria-live="polite"></p>
+      </div>
+
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+
+      <ul class="grid" id="grid" role="list" aria-label="Looks"></ul>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
